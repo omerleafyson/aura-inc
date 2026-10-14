@@ -1,0 +1,8 @@
+{
+  "name": "aura-inc-cloudflare",
+  "private": true,
+  "scripts": {
+    "build": "bash build.sh",
+    "deploy": "npm run build && npx wrangler@latest deploy"
+  }
+}
