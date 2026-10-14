@@ -1,5 +1,8 @@
 name = "aura-inc"
 compatibility_date = "2026-10-14"
 
+[build]
+command = "bash build.sh"
+
 [assets]
 directory = "./public"
